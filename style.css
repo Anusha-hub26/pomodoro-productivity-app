@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.timer, .tasks, .analytics {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    width: 300px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background: white;
+    color: #ff5e62;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input {
+    padding: 8px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    color: black;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}

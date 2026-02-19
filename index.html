@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Productivity App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🍅 Pomodoro Productivity App</h1>
+
+<div class="container">
+
+    <!-- Timer Section -->
+    <div class="timer">
+        <h2 id="mode">Work Time</h2>
+        <h1 id="time">25:00</h1>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+
+    <!-- Task Section -->
+    <div class="tasks">
+        <h2>📋 Tasks</h2>
+        <input type="text" id="taskInput" placeholder="Enter new task">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+    </div>
+
+    <!-- Analytics Section -->
+    <div class="analytics">
+        <h2>📊 Analytics</h2>
+        <p>Completed Pomodoros: <span id="completedCount">0</span></p>
+        <p>Total Focus Time: <span id="totalFocus">0</span> minutes</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
